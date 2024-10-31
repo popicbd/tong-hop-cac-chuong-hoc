@@ -124,68 +124,6 @@ Ví dụ: chmod 755 [tên_tệp] (7 - quyền đọc, ghi, thực thi cho chủ 
 - chown [chủ_sở_hữu]:[nhóm] [tên_tệp]: Thay đổi chủ sở hữu và nhóm của tệp/thư mục.
 2.6 Mạng và kết nối
 - ping [địa_chỉ]: Kiểm tra kết nối mạng đến một địa chỉ IP hoặc tên miền.
-1. Các khái niệm cơ bản trong Git
-Repository (Repo): Kho lưu trữ chứa toàn bộ mã nguồn và lịch sử thay đổi của dự án.
-Commit: Là một bản chụp lại của các thay đổi trong mã nguồn tại một thời điểm cụ thể. Mỗi commit có một ID duy nhất giúp xác định các thay đổi.
-Branch: Nhánh của dự án, cho phép tách ra từ nhánh chính để phát triển tính năng mới hoặc thử nghiệm mà không ảnh hưởng đến mã chính.
-Merge: Kết hợp các thay đổi từ nhánh khác vào nhánh hiện tại.
-Pull: Cập nhật kho lưu trữ cục bộ từ kho lưu trữ từ xa.
-Push: Đẩy các thay đổi từ kho lưu trữ cục bộ lên kho lưu trữ từ xa.
-Clone: Sao chép toàn bộ repo từ kho lưu trữ từ xa về máy tính cá nhân.
-Staging Area: Khu vực tạm để chuẩn bị cho commit, giúp xác định các tệp sẽ được commit.
-2. Cài đặt Git
-Để cài đặt Git, bạn có thể tải trực tiếp từ trang chính thức của Git: git-scm.com. Sau khi cài đặt, bạn có thể kiểm tra xem Git đã được cài đặt thành công chưa bằng lệnh:
-
-bash
-Sao chép mã
-git --version
-3. Các lệnh cơ bản trong Git
-3.1 Khởi tạo và quản lý repo
-git init: Khởi tạo một repo mới trong thư mục hiện tại.
-git clone [URL]: Sao chép một repo từ xa về máy tính cá nhân.
-3.2 Theo dõi và commit thay đổi
-git status: Kiểm tra trạng thái hiện tại của repo, bao gồm các tệp đã thay đổi.
-git add [tên_tệp]: Thêm tệp vào staging area.
-git add .: Thêm tất cả các thay đổi vào staging area.
-git commit -m "Thông điệp commit": Lưu các thay đổi từ staging area vào repo với một thông điệp mô tả.
-3.3 Làm việc với branch
-git branch: Hiển thị danh sách các nhánh hiện có.
-git branch [tên_nhánh_mới]: Tạo một nhánh mới.
-git checkout [tên_nhánh]: Chuyển sang nhánh khác.
-git checkout -b [tên_nhánh_mới]: Tạo và chuyển sang nhánh mới.
-git merge [tên_nhánh]: Hợp nhất một nhánh vào nhánh hiện tại.
-3.4 Làm việc với kho lưu trữ từ xa
-git remote add origin [URL]: Kết nối repo cục bộ với một repo từ xa (thường dùng tên là "origin").
-git push origin [tên_nhánh]: Đẩy các commit từ nhánh hiện tại lên repo từ xa.
-git pull origin [tên_nhánh]: Cập nhật repo cục bộ từ repo từ xa.
-3.5 Xem lịch sử và hoàn tác thay đổi
-git log: Xem lịch sử các commit.
-git log --oneline: Xem lịch sử commit ngắn gọn hơn.
-git diff: So sánh các thay đổi chưa được staged.
-git diff --staged: So sánh các thay đổi đã staged nhưng chưa commit.
-git reset [tên_tệp]: Gỡ tệp ra khỏi staging area.
-git reset --hard [ID_commit]: Khôi phục repo về một commit cụ thể và loại bỏ tất cả các thay đổi sau đó.
-4. Ứng dụng của Git trong thực tế
-Git là công cụ không thể thiếu trong phát triển phần mềm hiện đại. Một số ứng dụng của Git bao gồm:
-
-Phát triển phần mềm theo nhóm: Git cho phép nhiều người làm việc trên cùng một dự án mà không lo lắng về xung đột phiên bản hoặc mất dữ liệu. Mỗi người có thể tạo một nhánh riêng, thực hiện thay đổi và merge vào nhánh chính khi hoàn tất.
-
-Quản lý lịch sử mã nguồn: Git giúp lưu lại toàn bộ lịch sử thay đổi, nhờ đó đội ngũ phát triển có thể xem lại, khôi phục các phiên bản cũ, hoặc xem ai đã thực hiện thay đổi nào.
-
-Phát triển phân nhánh: Các tính năng mới, thử nghiệm hoặc bản sửa lỗi có thể được phát triển trên nhánh riêng và chỉ merge vào nhánh chính khi hoàn tất và ổn định. Điều này giúp giữ cho nhánh chính luôn ổn định.
-
-Triển khai liên tục (CI/CD): Git thường được tích hợp với các công cụ CI/CD như Jenkins, GitLab CI/CD, và GitHub Actions để tự động hóa việc kiểm tra và triển khai mã. Các công cụ này sẽ theo dõi repo, chạy các bài kiểm tra và triển khai ứng dụng khi có thay đổi mới.
-
-Học tập và chia sẻ mã nguồn: Với Git, người dùng có thể dễ dàng chia sẻ mã nguồn trên các nền tảng như GitHub, GitLab, và Bitbucket. Đây là công cụ mạnh mẽ để cộng đồng chia sẻ, học hỏi và đóng góp vào các dự án mã nguồn mở.
-
-5. Một số nền tảng quản lý mã nguồn Git phổ biến
-GitHub: Hỗ trợ cộng đồng mã nguồn mở và phát triển phần mềm, với tính năng quản lý dự án, công cụ CI/CD, và nhiều tiện ích cộng đồng.
-GitLab: Có các công cụ quản lý dự án mạnh mẽ và khả năng tích hợp CI/CD.
-Bitbucket: Được sử dụng phổ biến trong các công ty, hỗ trợ tích hợp tốt với các công cụ của Atlassian như Jira và Confluence.
-Git là công cụ mạnh mẽ không chỉ cho lập trình viên mà còn cho bất kỳ ai làm việc với dữ liệu và dự án cần quản lý lịch sử thay đổi và phân nhánh.
- ifconfig: Hiển thị thông tin cấu hình mạng (đôi khi dùng ip addr thay cho ifconfig).
-- ssh [người_dùng]@[địa_chỉ_IP]: Kết nối SSH đến máy chủ từ xa.
-- scp [tên_tệp] [người_dùng]@[địa_chỉ_IP]:[đường_dẫn]: Sao chép tệp qua SSH.
 2.7 Nén và giải nén tệp
 tar -cvf [tên_tệp.tar] [tên_thư_mục]: Nén một thư mục thành tệp tar.
 tar -xvf [tên_tệp.tar]: Giải nén tệp tar.
@@ -197,7 +135,6 @@ alias [bí_danh]='[lệnh]': Tạo bí danh cho một lệnh dài.
 df -h: Xem dung lượng ổ đĩa còn trống.
 free -h: Xem dung lượng bộ nhớ RAM.
 Nắm vững các lệnh cơ bản này sẽ giúp bạn sử dụng hệ điều hành Linux hiệu quả hơn và giúp quản trị hệ thống một cách dễ dàng.
-
 ## Chương 4 : Git và ứng dụng
 1. Các khái niệm cơ bản trong Git
 Repository (Repo): Kho lưu trữ chứa toàn bộ mã nguồn và lịch sử thay đổi của dự án.
@@ -258,6 +195,7 @@ GitHub: Hỗ trợ cộng đồng mã nguồn mở và phát triển phần mề
 GitLab: Có các công cụ quản lý dự án mạnh mẽ và khả năng tích hợp CI/CD.
 Bitbucket: Được sử dụng phổ biến trong các công ty, hỗ trợ tích hợp tốt với các công cụ của Atlassian như Jira và Confluence.
 Git là công cụ mạnh mẽ không chỉ cho lập trình viên mà còn cho bất kỳ ai làm việc với dữ liệu và dự án cần quản lý lịch sử thay đổi và phân nhánh.
+
 
 
 
