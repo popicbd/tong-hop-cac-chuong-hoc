@@ -137,9 +137,9 @@ free -h: Xem dung lượng bộ nhớ RAM.
 Nắm vững các lệnh cơ bản này sẽ giúp bạn sử dụng hệ điều hành Linux hiệu quả hơn và giúp quản trị hệ thống một cách dễ dàng.
 ## Chương 4 : Git và ứng dụng
 1. Các khái niệm cơ bản trong Git
-Repository (Repo): Kho lưu trữ chứa toàn bộ mã nguồn và lịch sử thay đổi của dự án.
-Commit: Là một bản chụp lại của các thay đổi trong mã nguồn tại một thời điểm cụ thể. Mỗi commit có một ID duy nhất giúp xác định các thay đổi.
-Branch: Nhánh của dự án, cho phép tách ra từ nhánh chính để phát triển tính năng mới hoặc thử nghiệm mà không ảnh hưởng đến mã chính.
+- Repository (Repo): Kho lưu trữ chứa toàn bộ mã nguồn và lịch sử thay đổi của dự án.
+- Commit: Là một bản chụp lại của các thay đổi trong mã nguồn tại một thời điểm cụ thể. Mỗi commit có một ID duy nhất giúp xác định các thay đổi.
+- Branch: Nhánh của dự án, cho phép tách ra từ nhánh chính để phát triển tính năng mới hoặc thử nghiệm mà không ảnh hưởng đến mã chính.
 Merge: Kết hợp các thay đổi từ nhánh khác vào nhánh hiện tại.
 Pull: Cập nhật kho lưu trữ cục bộ từ kho lưu trữ từ xa.
 Push: Đẩy các thay đổi từ kho lưu trữ cục bộ lên kho lưu trữ từ xa.
@@ -152,14 +152,14 @@ bash
 Sao chép mã
 git --version
 3. Các lệnh cơ bản trong Git
-3.1 Khởi tạo và quản lý repo
-git init: Khởi tạo một repo mới trong thư mục hiện tại.
-git clone [URL]: Sao chép một repo từ xa về máy tính cá nhân.
+- 3.1 Khởi tạo và quản lý repo
+- git init: Khởi tạo một repo mới trong thư mục hiện tại.
+- git clone [URL]: Sao chép một repo từ xa về máy tính cá nhân.
 3.2 Theo dõi và commit thay đổi
-git status: Kiểm tra trạng thái hiện tại của repo, bao gồm các tệp đã thay đổi.
-git add [tên_tệp]: Thêm tệp vào staging area.
-git add .: Thêm tất cả các thay đổi vào staging area.
-git commit -m "Thông điệp commit": Lưu các thay đổi từ staging area vào repo với một thông điệp mô tả.
+- git status: Kiểm tra trạng thái hiện tại của repo, bao gồm các tệp đã thay đổi.
+- git add [tên_tệp]: Thêm tệp vào staging area.
+- git add .: Thêm tất cả các thay đổi vào staging area.
+- git commit -m "Thông điệp commit": Lưu các thay đổi từ staging area vào repo với một thông điệp mô tả.
 3.3 Làm việc với branch
 git branch: Hiển thị danh sách các nhánh hiện có.
 git branch [tên_nhánh_mới]: Tạo một nhánh mới.
