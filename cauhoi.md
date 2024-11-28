@@ -338,5 +338,214 @@ C) Tính sẵn có (Availability)
 D) Tính xác thực (Authentication)
 E) Tính bảo mật (Security)
 
+3) Điền vào chỗ trống:
+Câu 1:
+Một tấn công SQL injection xảy ra khi một kẻ tấn công tiêm mã SQL vào các trường đầu vào của người dùng để khai thác _______ của hệ thống cơ sở dữ liệu.
 
+Câu 2:
+Để ngăn ngừa các cuộc tấn công phishing, các tổ chức nên yêu cầu người dùng xác minh tính xác thực của các liên kết và chỉ cung cấp thông tin nhạy cảm thông qua các giao thức _______.
 
+Câu 3:
+Theo nguyên lý “Least Privilege” trong bảo mật máy tính, mỗi người dùng hoặc tiến trình nên chỉ có quyền truy cập vào những tài nguyên _______ để hoàn thành nhiệm vụ của mình.
+
+## Chương 7
+
+1) Trắc nghiệm 1 đáp án:
+
+Câu 1:
+Trong WordPress, để tối ưu hóa hiệu suất của một trang web với lượng truy cập lớn, yếu tố quan trọng nhất cần phải chú ý là gì?
+A) Sử dụng plugin bảo mật mạnh mẽ.
+B) Cải thiện tốc độ tải trang bằng cách tối ưu hóa hình ảnh và sử dụng caching.
+C) Chọn một chủ đề có thiết kế đẹp mắt.
+D) Đảm bảo website sử dụng SSL/TLS.
+
+Câu 2:
+Khi xây dựng một trang web trên Google Sites, tính năng nào sau đây không được hỗ trợ trong việc tùy chỉnh giao diện trang web?
+A) Tùy chỉnh CSS.
+B) Thêm mã JavaScript tùy chỉnh.
+C) Tích hợp API bên ngoài.
+D) Cấu hình SEO nâng cao.
+
+Câu 3:
+Khi triển khai một ứng dụng di động sử dụng Firebase của Google, tính năng nào sau đây cung cấp khả năng theo dõi sự kiện và phân tích hành vi người dùng trong thời gian thực?
+A) Firebase Cloud Messaging.
+B) Firebase Authentication.
+C) Firebase Analytics.
+D) Firebase Realtime Database.
+
+2) Trắc nghiệm nhiều đáp án:
+
+Câu 1:
+Khi xây dựng một website WordPress, những plugin nào dưới đây có thể giúp cải thiện tốc độ tải trang và tối ưu hóa hiệu suất? (Chọn tất cả các đáp án đúng)
+A) WP Super Cache.
+B) Yoast SEO.
+C) WP Rocket.
+D) Contact Form 7.
+E) Smush Image Compression and Optimization.
+
+Câu 2:
+Để tối ưu hóa SEO cho một trang web được xây dựng trên Google Sites, những hành động nào sau đây có thể được thực hiện? (Chọn tất cả các đáp án đúng)
+A) Thêm từ khóa trong tiêu đề trang và mô tả meta.
+B) Tạo sơ đồ trang web (sitemap).
+C) Sử dụng URL thân thiện với SEO.
+D) Cải thiện tốc độ tải trang bằng cách giảm kích thước hình ảnh.
+E) Chỉnh sửa CSS để thay đổi màu sắc và kiểu chữ cho trang.
+
+Câu 3:
+Khi phát triển một ứng dụng di động trên Google Play Store, những yếu tố nào dưới đây ảnh hưởng trực tiếp đến thứ hạng của ứng dụng trong kết quả tìm kiếm của Google Play? (Chọn tất cả các đáp án đúng)
+A) Đánh giá và nhận xét của người dùng.
+B) Mật độ từ khóa trong mô tả ứng dụng.
+C) Số lượng tải xuống của ứng dụng.
+D) Định dạng ảnh bìa ứng dụng.
+E) Kích thước của ứng dụng.
+
+3) Điền vào chỗ trống:
+
+Câu 1:
+Trong WordPress, để quản lý và hiển thị nội dung liên quan một cách tự động, hệ thống sử dụng một tính năng gọi là _______ để tạo các bài viết và phân loại chúng thành các danh mục và thẻ.
+
+Câu 2:
+Khi sử dụng Google Sites để xây dựng một trang web, tính năng _______ cho phép người dùng dễ dàng chia sẻ trang với những người khác và điều chỉnh quyền truy cập cho từng người dùng.
+
+Câu 3:
+Khi phát triển ứng dụng di động, một trong những yếu tố quan trọng nhất trong việc cải thiện trải nghiệm người dùng (UX) là _______ nhằm tối ưu hóa giao diện và đảm bảo tính dễ sử dụng của ứng dụng.
+
+## Chương 8: 
+
+1) Trắc nghiệm 1 đáp án:
+
+Câu 1:
+Một thuật toán được cho là tối ưu nếu:
+A) Thuật toán thực hiện đúng mọi bước mà không gặp lỗi.
+B) Thuật toán đạt được kết quả đúng trong thời gian và không gian tính toán tối thiểu.
+C) Thuật toán có thể chạy trên tất cả các loại máy tính.
+D) Thuật toán có thể thực hiện tất cả các phép toán mà không cần phải chia nhỏ bài toán.
+
+Câu 2:
+Trong lý thuyết về thuật toán, khái niệm độ phức tạp thời gian của một thuật toán đề cập đến:
+A) Tổng số bước tính toán cần thiết để thực hiện thuật toán trên một dữ liệu cụ thể.
+B) Mức độ phức tạp của mã nguồn thuật toán.
+C) Thời gian tối thiểu mà thuật toán có thể hoàn thành.
+D) Mối quan hệ giữa kích thước dữ liệu đầu vào và số lần lặp của thuật toán.
+
+Câu 3:
+Một chương trình có thể được xem như là một:
+A) Dãy các bước giải quyết bài toán không thay đổi.
+B) Dãy các câu lệnh mà máy tính thực thi theo một trình tự cụ thể.
+C) Một phép toán giúp tính toán kết quả cuối cùng.
+D) Một thuật toán mà không cần quan tâm đến dữ liệu đầu vào.
+
+2) Trắc nghiệm nhiều đáp án:
+
+Câu 1:
+Các tính chất nào dưới đây là cần thiết để một thuật toán được xem là thuật toán chính quy? (Chọn tất cả các đáp án đúng)
+A) Thuật toán phải có đầu vào xác định.
+B) Thuật toán phải có kết quả rõ ràng sau mỗi bước thực thi.
+C) Thuật toán phải có độ phức tạp tính toán rất thấp.
+D) Thuật toán phải có đầu ra xác định sau một số bước hữu hạn.
+E) Thuật toán phải có thể thực hiện trên bất kỳ máy tính nào.
+
+Câu 2:
+Khi đánh giá một thuật toán, các yếu tố nào dưới đây là quan trọng để xác định hiệu suất của thuật toán? (Chọn tất cả các đáp án đúng)
+A) Độ phức tạp thời gian của thuật toán.
+B) Độ phức tạp không gian của thuật toán.
+C) Chất lượng mã nguồn và cấu trúc của chương trình.
+D) Mức độ parallel hóa có thể thực hiện.
+E) Độ chính xác của kết quả mà thuật toán đưa ra.
+
+Câu 3:
+Khi viết một chương trình, các khái niệm nào dưới đây là quan trọng trong việc quản lý bộ nhớ và tài nguyên hệ thống? (Chọn tất cả các đáp án đúng)
+A) Quản lý bộ nhớ động (Dynamic Memory Allocation).
+B) Sử dụng các cấu trúc dữ liệu tối ưu.
+C) Lập trình đa luồng (Multithreading).
+D) Quản lý tài nguyên đầu vào/ra (I/O Management).
+E) Sử dụng thuật toán mã hóa để bảo mật dữ liệu.
+
+3) Điền vào chỗ trống:
+
+Câu 1:
+Trong một thuật toán tìm kiếm, một thuật toán tìm kiếm tuần tự sẽ kiểm tra từng phần tử trong tập dữ liệu một cách _______ cho đến khi tìm thấy phần tử cần tìm hoặc hết tập dữ liệu.
+
+Câu 2:
+Một chương trình máy tính có thể được coi là một tập hợp các câu lệnh được sắp xếp theo một trình tự, trong đó mỗi câu lệnh được thực thi _______.
+
+Câu 3:
+Thuật toán Dijkstra được sử dụng để tìm _______ từ một đỉnh đến tất cả các đỉnh còn lại trong đồ thị có trọng số không âm.
+
+## Chương 9 :
+
+1) Trắc nghiệm 1 đáp án:
+
+Câu 1:
+Kết quả của biểu thức sau trong Python sẽ là gì:
+
+python
+Sao chép mã
+x = [1, 2, 3]
+y = x
+y[0] = 10
+print(x)
+A) [1, 2, 3]
+B) [10, 2, 3]
+C) [10, 2, 3, 4]
+D) Error
+
+Câu 2:
+Trong Python, khi sử dụng global để khai báo một biến, nó có tác dụng gì?
+A) Biến toàn cục có thể được thay đổi trong một hàm.
+B) Biến được khai báo là không thể thay đổi trong hàm.
+C) Biến sẽ trở thành hằng số toàn cục.
+D) Biến toàn cục sẽ chỉ có thể được sử dụng trong một hàm.
+
+Câu 3:
+Kết quả của đoạn mã sau sẽ là gì trong Python?
+
+python
+Sao chép mã
+def func(a, b=[]):
+    b.append(a)
+    return b
+print(func(1))
+print(func(2, []))
+print(func(3))
+A) [1], [2], [3]
+B) [1], [2], [1, 3]
+C) [1], [2], [3]
+D) [1], [], [3]
+
+2) Trắc nghiệm nhiều đáp án:
+
+Câu 1:
+Khi làm việc với tập hợp trong Python, các thao tác nào dưới đây có thể được sử dụng để thêm hoặc xóa phần tử trong một tập hợp? (Chọn tất cả các đáp án đúng)
+A) add()
+B) remove()
+C) pop()
+D) append()
+E) discard()
+
+Câu 2:
+Các tính năng nào dưới đây thuộc về list comprehension trong Python? (Chọn tất cả các đáp án đúng)
+A) Tạo một danh sách mới từ một vòng lặp.
+B) Cho phép điều kiện lọc các phần tử trong danh sách.
+C) Có thể sử dụng if và else trong biểu thức.
+D) Danh sách sinh ra có thể được áp dụng với nhiều hàm nội bộ.
+E) Tạo một tuple thay vì list.
+
+Câu 3:
+Khi sử dụng thư viện itertools trong Python, những hàm nào dưới đây có thể được dùng để tạo các chuỗi con của một tập hợp hoặc danh sách? (Chọn tất cả các đáp án đúng)
+A) combinations()
+B) permutations()
+C) product()
+D) cycle()
+E) chain()
+
+3) Điền vào chỗ trống:
+
+Câu 1:
+Trong Python, khi bạn sử dụng cú pháp x = lambda a, b: a + b, lambda tạo ra một _______ ẩn danh có thể thay thế cho hàm thông thường.
+
+Câu 2:
+Trong Python, nếu bạn muốn tránh lỗi khi truy cập một khóa không tồn tại trong từ điển, bạn có thể sử dụng phương thức _______ để trả về một giá trị mặc định thay vì gây lỗi.
+
+Câu 3:
+Khi sử dụng phương thức join() trong Python, bạn có thể kết hợp các phần tử của một danh sách hoặc tuple thành một chuỗi, nhưng các phần tử phải là _______ chứ không phải kiểu dữ liệu khác.
